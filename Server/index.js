@@ -6,6 +6,7 @@ const http=require('http');
 const {Server}=require('socket.io');
 const cors=require('cors');
 const server=http.createServer(app);
+const path=require('path')
 
 const Message = require('./models/Message');
 
@@ -20,6 +21,9 @@ mongoose.connect(mongoDB)
   });
 
 app.use(cors());
+
+
+
 
 
 
