@@ -29,7 +29,6 @@ app.use(cors());
 
 const io= new Server(server, {
     cors: {
-        origin:"https://chat-app-5-x9zq.onrender.com",
         methods:["GET","POST"],
     },
 });
