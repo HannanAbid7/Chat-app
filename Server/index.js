@@ -29,7 +29,7 @@ app.use(cors());
 
 const io= new Server(server, {
     cors: {
-        origin:"https://66a6906994ed9868a9cd78be--willowy-cranachan-5ec2bc.netlify.app/",
+        origin:"https://chat-app-5-x9zq.onrender.com",
         methods:["GET","POST"],
     },
 });
